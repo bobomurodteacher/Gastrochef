@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praekt new </title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+             <div class="row container-row">
+                  <div class="logo-box">
+                       <img src="imgs/site-logo.png" alt="">
+                       <p class="logo-text">healthy ration</p>
+                  </div>
+                  <nav class="site-nav">
+                            <ul class="nav-list">
+                                <li class="nav-item"><a class="nav-item-link" href="#">Програмы питания
+                                    <div class="change-lang">
+                                        <div class="lang active-lang"><p class="">uz</p></div>
+                                        <div class="lang"><p>ru</p></div>
+                                        <div class="lang"><p>eng</p></div>
+                                    </div>
+                                </a></li>
+                                <li class="nav-item"><a class="nav-item-link" href="#">Бизнес-ланчи</a></li>
+                                <li class="nav-item "><a class="nav-item-link active-link" href="#">Gastro Shop</a></li>
+                                <li class="nav-item"><a class="nav-item-link" href="#">О нас</a></li>
+                                <li class="nav-item"><a class="nav-item-link" href="#">Блог</a></li>
+                            </ul>
+                            <div class="contact none">
+                                <p class="contact-num">+38 (068) 949 - 49 -19</p>
+                            </div>
+                  </nav>
+                  <div class="phone-box none">
+                     <img src="imgs/phone.svg" alt="">
+                  </div>
+                  <div class="contact hidden">
+                     <p class="contact-num">+38 (068) 949 - 49 -19</p>
+                  </div>
+                  <button id="burger" >
+                      <div class="burger none" >
+                         <img class="burger-img" src="imgs/burger.svg" alt="">
+                      </div>
+                  </button>
+             </div>
+        </div>
+        <div class="hero active-hero">
+            <div class="container">
+            
+                    <div class="row hero-row">
+
+                        <div class="left-sidebar">
+                            <div class="row">
+                                <div class="product-box">
+                                   <img src="imgs/carrot.svg" alt="">
+                                   <p class="product-text">carrot</p>
+                                </div>
+                                <div class="product-box ">
+                                    <img src="imgs/fish_1.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/bottle.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/bottle.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/meat.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/carrot.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="hero-info">
+                            <h2 class="hero-title">Detox программа –  <span>вкусное очищение</span> организма </h2>
+                            <p class="hero-text">8 бутылочек <span>натуральных</span> смузи и фрешей.</p>
+                             <div class="hero-footer row">
+                                 <button class="btn hero-btn">Заказать</button>
+                                 <div class="info-footer">
+                                    <p>Пробный день всего:</p>
+                                    <h2>427 грн</h2>
+                                 </div>
+                             </div>
+                        </div>
+                        <div class="hero-img">
+                        <div class="img-box"> 
+                                <img src="imgs/hero-2.png" alt="">
+                        </div>
+                        <div class="slider-icon">
+                        <button class="left-btn" onclick="afterItem()"><i class='bx bx-chevron-left' ></i></button>
+                          <span class="span-box">
+                              <span id="1"  class="slider-box-active"></span>
+                              <span  id="2" ></span>
+                              <span id="3" ></span>
+                              <span id="4" ></span>
+                          </span>
+                        <button class="right-btn" onclick="nextItem()" ><i class='bx bx-chevron-right'></i></button>
+                         </div>
+                         <div class="social-media">
+                                <div class="social-img">
+                                         <div class="main-img">
+                                             <img src="imgs/chat.svg" alt="">
+                                             <div class="count-box"><span class="count-span">1</span></div>
+                                         </div>
+                                         <div class="call-img">
+                                            <img src="imgs/call.svg" alt="">
+                                          </div>
+                                          <div class="telegram-img">
+                                            <img src="imgs/telegram.svg" alt="">
+                                          </div>
+                                         
+                                </div>
+                         </div>
+                        </div>
+                  
+                    </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="container">
+            
+                    <div class="row hero-row">
+
+                        <div class="left-sidebar">
+                            <div class="row">
+                                <div class="product-box">
+                                   <img src="imgs/carrot.svg" alt="">
+                                   <p class="product-text">carrot</p>
+                                </div>
+                                <div class="product-box ">
+                                    <img src="imgs/fish_1.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/bottle.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/bottle.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/meat.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/carrot.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="hero-info">
+                            <h2 class="hero-title">Сервис правильного питания. <span>Худей быстро!</span>  </h2>
+                            <p class="hero-text">8 бутылочек <span>натуральных</span> смузи и фрешей.</p>
+                             <div class="hero-footer row">
+                                 <button class="btn hero-btn">Заказать</button>
+                                 <div class="info-footer">
+                                    <p>Пробный день</p>
+                                    <h2>-30%</h2>
+                                 </div>
+                             </div>
+                        </div>
+                        <div class="hero-img">
+                        <div class="img-box"> 
+                                <img src="imgs/hero-3.png" alt="">
+                        </div>
+                        <div class="slider-icon">
+                            <button class="left-btn" onclick="afterItem()"><i class='bx bx-chevron-left' ></i></button>
+                              <span class="span-box">
+                                <span id="1"  ></span>
+                                <span  id="2" class="slider-box-active" ></span>
+                                <span id="3" ></span>
+                                <span id="4" ></span>
+                              </span>
+                            <button class="right-btn" onclick="nextItem()" ><i class='bx bx-chevron-right'></i></button>
+                             </div>
+                         <div class="social-media">
+                                <div class="social-img">
+                                         <div class="main-img">
+                                             <img src="imgs/chat.svg" alt="">
+                                             <div class="count-box"><span class="count-span">1</span></div>
+                                         </div>
+                                         <div class="call-img">
+                                            <img src="imgs/call.svg" alt="">
+                                          </div>
+                                          <div class="telegram-img">
+                                            <img src="imgs/telegram.svg" alt="">
+                                          </div>
+                                         
+                                </div>
+                         </div>
+                        </div>
+                  
+                    </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="container">
+            
+                    <div class="row hero-row">
+
+                        <div class="left-sidebar">
+                            <div class="row">
+                                <div class="product-box">
+                                   <img src="imgs/carrot.svg" alt="">
+                                   <p class="product-text">carrot</p>
+                                </div>
+                                <div class="product-box ">
+                                    <img src="imgs/fish_1.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/bottle.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/bottle.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/meat.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/carrot.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="hero-info">
+                            <h2 class="hero-title"> Кето питание <span>- вкусное и экстремальное </span> быстрое похудение </h2>
+                            <p class="hero-text">4 приема пищи.</p>
+                             <div class="hero-footer row">
+                                 <button class="btn hero-btn">Заказать</button>
+                                 <div class="info-footer">
+                                    <p>Пробный день</p>
+                                    <h2>от 490грн</h2>
+                                 </div>
+                             </div>
+                        </div>
+                        <div class="hero-img">
+                        <div class="img-box"> 
+                                <img src="imgs/hero-img-1.png" alt="">
+                        </div>
+                        <div class="slider-icon">
+                        <button class="left-btn" onclick="afterItem()"><i class='bx bx-chevron-left' ></i></button>
+                          <span class="span-box">
+                            <span id="1"  ></span>
+                            <span  id="2" ></span>
+                            <span id="3" class="slider-box-active"  ></span>
+                            <span id="4" ></span>
+                          </span>
+                        <button class="right-btn" onclick="nextItem()" ><i class='bx bx-chevron-right'></i></button>
+                         </div>
+                         <div class="social-media">
+                                <div class="social-img">
+                                         <div class="main-img">
+                                             <img src="imgs/chat.svg" alt="">
+                                             <div class="count-box"><span class="count-span">1</span></div>
+                                         </div>
+                                         <div class="call-img">
+                                            <img src="imgs/call.svg" alt="">
+                                          </div>
+                                          <div class="telegram-img">
+                                            <img src="imgs/telegram.svg" alt="">
+                                          </div>
+                                         
+                                </div>
+                         </div>
+                        </div>
+                  
+                    </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="container">
+            
+                    <div class="row hero-row">
+
+                        <div class="left-sidebar">
+                            <div class="row">
+                                <div class="product-box">
+                                   <img src="imgs/carrot.svg" alt="">
+                                   <p class="product-text">carrot</p>
+                                </div>
+                                <div class="product-box ">
+                                    <img src="imgs/fish_1.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/bottle.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/bottle.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/meat.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                                 <div class="product-box">
+                                    <img src="imgs/carrot.svg" alt="">
+                                    <p class="product-text">carrot</p>
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="hero-info">
+                            <h2 class="hero-title"> Кето питание <span>- вкусное и экстремальное </span> быстрое похудение </h2>
+                            <p class="hero-text">4 приема пищи.</p>
+                             <div class="hero-footer row">
+                                 <button class="btn hero-btn">Заказать</button>
+                                 <div class="info-footer">
+                                    <p>Пробный день</p>
+                                    <h2>от 490грн</h2>
+                                 </div>
+                             </div>
+                        </div>
+                        <div class="hero-img">
+                        <div class="img-box"> 
+                                <img src="imgs/Mask Group (6).png" alt="">
+                        </div>
+                        <div class="slider-icon">
+                        <button  class="left-btn" onclick="afterItem()"><i class='bx bx-chevron-left' ></i></button>
+                          <span class="span-box">
+                            <span id="1"  ></span>
+                            <span  id="2" ></span>
+                            <span id="3"   ></span>
+                            <span id="4" class="slider-box-active" ></span>
+                          </span>
+                        <button class="right-btn" onclick="nextItem()" ><i class='bx bx-chevron-right'></i></button>
+                         </div>
+                         <div class="social-media">
+                                <div class="social-img">
+                                         <div class="main-img">
+                                             <img src="imgs/chat.svg" alt="">
+                                             <div class="count-box"><span class="count-span">1</span></div>
+                                         </div>
+                                         <div class="call-img">
+                                            <img src="imgs/call.svg" alt="">
+                                          </div>
+                                          <div class="telegram-img">
+                                            <img src="imgs/telegram.svg" alt="">
+                                          </div>
+                                         
+                                </div>
+                         </div>
+                        </div>
+                  
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="main.js"></script>
+</body>
+</html>
